@@ -1,0 +1,59 @@
+body > header {
+		position:		fixed;
+		transition:		0.5s all linear;
+		-webkit-transition: 0.5s all linear;
+		-moz-transition: 0.5s all linear;
+		-o-transition: 0.5s all linear;
+		transition: 0.5s all linear;
+		top: 0;
+		z-index: 3;
+		box-shadow: 0 0 10px 0 rgba(156, 75, 75, 1);
+		-webkit-box-shadow: 0 0 10px 0 rgba(156, 75, 75, 1);
+		-moz-box-shadow: 0 0 10px 0 rgba(156, 75, 75, 1);
+		-o-box-shadow: 0 0 10px 0 rgba(156, 75, 75, 1);
+		height: 135px;
+		width: 100%;
+}
+body > header.halfsize {
+		height:			60px;
+		box-shadow: 0 0 10px 0 rgba(16, 16, 16, 1.00);
+		-webkit-box-shadow: 0 0 10px 0 rgba(16, 16, 16, 1.00);
+		-moz-box-shadow: 0 0 10px 0 rgba(16, 16, 16, 1.00);
+		-o-box-shadow: 0 0 10px 0 rgba(16, 16, 16, 1.00);
+		background-color: rgba(60, 46, 36, 0.67);
+		z-index: 3;
+	}
+a.nav {
+	color: tan;
+}
+nav {
+	float: right;
+	margin-right: 12px;
+	width: 700px;
+	margin-top: 90px;
+	transition:		0.5s all linear;
+		-webkit-transition: 0.5s all linear;
+		-moz-transition: 0.5s all linear;
+		-o-transition: 0.5s all linear;
+}
+.new-nav {
+	float: right;
+	margin-right: 12px;
+	width: 700px;
+	margin-top: 12px;
+	
+	
+}
+body > header > nav ul li {
+margin: 0;
+padding: 0;
+list-style: none;
+float: left;
+padding: 0px 20px;
+font-size: 25px;
+font-family: sansita-one, sans-serif;
+}
+.container {
+	background-color: bisque;
+	margin-top: 570px;
+}
